@@ -48,5 +48,8 @@ def verbAfterSubject(sent):
             return False
         if i in subject:
             return True
-while 1:
-    print(main())
+
+nltk.help.upenn_tagset()
+
+#while 1:
+    #print(main())
